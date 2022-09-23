@@ -1,0 +1,15 @@
+{
+    "name": "CryptoBlock",
+    "version": "1.0",
+    "description": "This is a basic adblocking extension with over 700 hundred blacklisted sites. This extension will block any malicious ads or link that may harm your device. Happy surfing!!!",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/16.ico",
+        "48": "icons/48.ico",
+        "128": "icons/128.ico"
+    },
+    "manifest_version": 2
+}
